@@ -1,0 +1,11 @@
+{
+  "args": {},
+  "headers": {
+    "x-forwarded-proto": "https",
+    "host": "postman-echo.com",
+    "accept": "application/json, text/plain, */*",
+    "user-agent": "axios/0.18.1",
+    "x-forwarded-port": "443"
+  },
+  "url": "https://postman-echo.com/get"
+}
