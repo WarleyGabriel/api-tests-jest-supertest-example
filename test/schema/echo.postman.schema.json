@@ -1,0 +1,96 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "args",
+    "headers",
+    "url"
+  ],
+  "properties": {
+    "args": {
+      "$id": "#/properties/args",
+      "type": "object",
+      "title": "The Args Schema"
+    },
+    "headers": {
+      "$id": "#/properties/headers",
+      "type": "object",
+      "title": "The Headers Schema",
+      "minItems": 5,
+      "required": [
+        "x-forwarded-proto",
+        "host",
+        "accept",
+        "user-agent",
+        "x-forwarded-port"
+      ],
+      "properties": {
+        "x-forwarded-proto": {
+          "$id": "#/properties/headers/properties/x-forwarded-proto",
+          "type": "string",
+          "title": "The X-forwarded-proto Schema",
+          "default": "",
+          "examples": [
+            "https"
+          ],
+          "pattern": "^(.*)$",
+          "maxLength": 5,
+          "minLength": 4
+        },
+        "host": {
+          "$id": "#/properties/headers/properties/host",
+          "type": "string",
+          "title": "The Host Schema",
+          "default": "",
+          "examples": [
+            "postman-echo.com"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "accept": {
+          "$id": "#/properties/headers/properties/accept",
+          "type": "string",
+          "title": "The Accept Schema",
+          "default": "",
+          "examples": [
+            "application/json, text/plain, */*"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "user-agent": {
+          "$id": "#/properties/headers/properties/user-agent",
+          "type": "string",
+          "title": "The User-agent Schema",
+          "default": "",
+          "examples": [
+            "axios/0.18.1"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "x-forwarded-port": {
+          "$id": "#/properties/headers/properties/x-forwarded-port",
+          "type": "string",
+          "title": "The X-forwarded-port Schema",
+          "default": "",
+          "examples": [
+            "443"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "url": {
+      "$id": "#/properties/url",
+      "type": "string",
+      "title": "The Url Schema",
+      "default": "",
+      "examples": [
+        "https://postman-echo.com/get"
+      ],
+      "pattern": "^(.*)$"
+    }
+  }
+}
