@@ -1,13 +1,18 @@
 import axios from 'axios';
 
 class Postman {
-  getBaseUrl() {
-    return 'https://postman-echo.com';
+  getInstance() {
+    const axiosInstance = axios.create(
+      {
+        baseURL: 'https://postman-echo.com',
+      },
+    );
+    return axiosInstance;
   }
 
   async getEchoPostman() {
-    const url = `${this.getBaseUrl()}/get`;
-    return axios.get(url);
+    const url = '/get';
+    return this.getInstance().get(url);
   }
 }
 
