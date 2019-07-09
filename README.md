@@ -14,7 +14,7 @@ yarn install
 
 Run tests
 ```
-yarn run api-tests
+yarn run api:tests
 ```
 
 #### Eslint

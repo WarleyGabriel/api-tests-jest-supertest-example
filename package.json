@@ -10,7 +10,7 @@
   "author": "warleygabriel",
   "main": "index.js",
   "scripts": {
-    "api-tests": "mocha test/specs/*.js --require @babel/polyfill --require @babel/register",
+    "api:tests": "mocha test/specs/*.js --require @babel/polyfill --require @babel/register",
     "check": "eslint \"test/**/*.js\"",
     "format": "yarn run check -- --fix --quiet"
   },
