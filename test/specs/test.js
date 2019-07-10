@@ -3,7 +3,7 @@ import chai, { assert } from 'chai';
 import jsonSchema from 'chai-json-schema';
 import { postman } from '../services/postman';
 import echoPostmanResponse from '../data/echo.postman.response';
-import echoPostmanSchema from '../schema/echo.postman.schema';
+import echoPostmanSchema from '../schemas/echo.postman.schema';
 
 chai.use(jsonSchema);
 
