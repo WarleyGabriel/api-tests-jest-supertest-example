@@ -1,12 +1,12 @@
-## DEMO API tests with Mocha and Chai
+## Demo API tests with Mocha and Chai
 
-**DEMO API tests** is a project that check response of server and validate the contract.<br/>
-The tests are developed in JS with [Mocha](https://mochajs.org/) and [Chai](https://www.chaijs.com/)<br/>
+**Demo API tests** is a demonstration project that check response of server and validate the contract.<br/>
+These tests are developed in JS with [Mocha](https://mochajs.org/) and [Chai](https://www.chaijs.com/)<br/>
 
 #### Requirements
 
-- node >= 8.9.x
-- yarn >= 1.9.x
+- node >= 10.15.x - [how to install Node](https://nodejs.org/en/download/)
+- yarn >= 1.16.x - [how to install Yarn](https://yarnpkg.com/en/docs/install#debian-stable)
 
 #### Getting Started
 

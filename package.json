@@ -1,7 +1,7 @@
 {
   "name": "demo-api-tests",
   "version": "1.0.0",
-  "description": "DEMO API Tests with Mocha, Chai and Axios",
+  "description": "Demo API Tests with Mocha, Chai and Axios",
   "repository": {
     "type": "git",
     "url": "git@github.com:WarleyGabriel/demo-api-tests.git"
