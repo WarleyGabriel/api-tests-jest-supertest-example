@@ -1,4 +1,7 @@
-## DEMO Mocha API tests
+## DEMO API tests with Mocha and Chai
+
+**DEMO API tests** is a project that check response of server and validate the contract.<br/>
+The tests are developed in JS with [Mocha](https://mochajs.org/) and [Chai](https://www.chaijs.com/)<br/>
 
 #### Requirements
 
@@ -7,24 +10,24 @@
 
 #### Getting Started
 
-Install the dependencies
+Install the dependencies:
 ```
 yarn install
 ```
 
-Run tests
+Run tests:
 ```
 yarn run api:tests
 ```
 
 #### Eslint
 
-Run check lint
+Run check lint:
 ```
 yarn run check
 ```
 
-Run format lint
+Run format lint:
 ```
 yarn run format
 ```

@@ -1,10 +1,10 @@
 {
-  "name": "demo-mocha-api",
+  "name": "demo-api-tests",
   "version": "1.0.0",
-  "description": "API tests with Mocha",
+  "description": "DEMO API Tests with Mocha, Chai and Axios",
   "repository": {
     "type": "git",
-    "url": "git@github.com:WarleyGabriel/demo-mocha-api.git"
+    "url": "git@github.com:WarleyGabriel/demo-api-tests.git"
   },
   "license": "ISC",
   "author": "warleygabriel",
