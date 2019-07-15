@@ -10,9 +10,10 @@
   "author": "warleygabriel",
   "main": "index.js",
   "scripts": {
-    "api:tests": "mocha test/specs/*.js --require @babel/polyfill --require @babel/register",
+    "api:tests": "mocha test/specs/*.js --require @babel/polyfill --require @babel/register --reporter mocha-multi-reporters --reporter-options configFile=mocha.reporters.json",
     "check": "eslint \"test/**/*.js\"",
-    "format": "yarn run check -- --fix --quiet"
+    "format": "yarn run check --fix --quiet",
+    "report": "allure generate --clean ./allure-results -o ./allure-report"
   },
   "dependencies": {
     "@babel/cli": "^7.5.0",
@@ -20,17 +21,18 @@
     "@babel/polyfill": "^7.4.4",
     "@babel/preset-env": "^7.5.0",
     "@babel/register": "^7.4.4",
-    "axios": "^0.18.0",
-    "chai-json-schema": "^1.5.1",
-    "eslint-config-airbnb": "^17.1.0",
-    "json-schema-faker": "^0.5.0-rc17"
-  },
-  "devDependencies": {
     "@types/node": "12.0.0",
+    "axios": "^0.18.0",
     "chai": "^4.2.0",
+    "chai-json-schema": "^1.5.1",
     "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.17.2",
-    "mocha": "^6.1.4"
+    "http-status-codes": "^1.3.2",
+    "json-schema-faker": "^0.5.0-rc17",
+    "mocha": "^6.1.4",
+    "mocha-allure-reporter": "^1.4.0",
+    "mocha-multi-reporters": "^1.1.7"
   }
 }

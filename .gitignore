@@ -6,3 +6,7 @@ node_modules/
 
 ### MACOS ###
 .DS_Store
+
+### Logs ###
+allure-results/
+allure-report/

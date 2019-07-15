@@ -5,7 +5,7 @@ module.exports = {
         'global-require': 'off',
         'import/prefer-default-export': 'off',
         'no-magic-numbers': ['error', {
-            ignore: [200, 302, 404, 500],
+            ignore: [0],
             ignoreArrayIndexes: true,
             enforceConst: true,
         }],

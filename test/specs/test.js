@@ -1,6 +1,7 @@
 import jsf from 'json-schema-faker';
 import chai, { assert } from 'chai';
 import jsonSchema from 'chai-json-schema';
+import * as HttpStatus from 'http-status-codes';
 import { postman } from '../services/postman';
 import echoPostmanResponse from '../data/echo.postman.response';
 import echoPostmanSchema from '../schemas/echo.postman.schema';
@@ -12,7 +13,7 @@ describe('My first API test.', () => {
     const response = await postman.getEchoPostman();
     assert.equal(
       response.status,
-      200,
+      HttpStatus.OK,
       'Testing the right status',
     );
     assert.jsonSchema(

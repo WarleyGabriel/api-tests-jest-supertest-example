@@ -1,0 +1,6 @@
+{
+  "reporterEnabled": "spec, mocha-allure-reporter",
+  "mochaAllureReporterReporterOptions": {
+    "targetDir": "./allure-results"
+  }
+}

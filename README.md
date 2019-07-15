@@ -15,9 +15,25 @@ Install the dependencies:
 yarn install
 ```
 
-Run tests:
+Run api tests:
 ```
 yarn run api:tests
+```
+
+#### Allure Report
+
+![alt text](https://github.com/WarleyGabriel/demo-api-tests/blob/master/images/allure-report.png)
+
+If you don't have allure command line installed on your machine yet, follow the instructions [here](https://github.com/allure-framework/allure-docs/blob/master/docs/reporting/commandline.adoc).
+
+After installing, run this command to generate the report:
+```
+yarn run report
+```
+
+You can run this command to start a server and open the report:
+```
+allure open allure-report
 ```
 
 #### Eslint
