@@ -36,7 +36,7 @@ You can run this command to start a server and open the report:
 allure open allure-report
 ```
 
-#### Eslint
+#### Eslint and Prettier
 
 Run check lint:
 ```
