@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-class Postman {
+class PostmanService {
     getInstance() {
         const axiosInstance = axios.create({
             baseURL: 'https://postman-echo.com',
@@ -14,4 +14,4 @@ class Postman {
     }
 }
 
-export const postman = new Postman();
+export const postmanService = new PostmanService();
