@@ -4,11 +4,7 @@
   "$id": "http://example.com/root.json",
   "type": "object",
   "title": "The Root Schema",
-  "required": [
-    "args",
-    "headers",
-    "url"
-  ],
+  "required": ["args", "headers", "url"],
   "properties": {
     "args": {
       "$id": "#/properties/args",
@@ -33,9 +29,7 @@
           "type": "string",
           "title": "The X-forwarded-proto Schema",
           "default": "",
-          "examples": [
-            "https"
-          ],
+          "examples": ["https"],
           "pattern": "^(.*)$",
           "maxLength": 5,
           "minLength": 4
@@ -45,9 +39,7 @@
           "type": "string",
           "title": "The Host Schema",
           "default": "",
-          "examples": [
-            "postman-echo.com"
-          ],
+          "examples": ["postman-echo.com"],
           "pattern": "^(.*)$"
         },
         "accept": {
@@ -55,9 +47,7 @@
           "type": "string",
           "title": "The Accept Schema",
           "default": "",
-          "examples": [
-            "application/json, text/plain, */*"
-          ],
+          "examples": ["application/json, text/plain, */*"],
           "pattern": "^(.*)$"
         },
         "user-agent": {
@@ -65,9 +55,7 @@
           "type": "string",
           "title": "The User-agent Schema",
           "default": "",
-          "examples": [
-            "axios/0.18.1"
-          ],
+          "examples": ["axios/0.18.1"],
           "pattern": "^(.*)$"
         },
         "x-forwarded-port": {
@@ -75,9 +63,7 @@
           "type": "string",
           "title": "The X-forwarded-port Schema",
           "default": "",
-          "examples": [
-            "443"
-          ],
+          "examples": ["443"],
           "pattern": "^(.*)$"
         }
       }
@@ -87,9 +73,7 @@
       "type": "string",
       "title": "The Url Schema",
       "default": "",
-      "examples": [
-        "https://postman-echo.com/get"
-      ],
+      "examples": ["https://postman-echo.com/get"],
       "pattern": "^(.*)$"
     }
   }

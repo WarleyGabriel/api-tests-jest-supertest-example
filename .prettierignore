@@ -1,0 +1,6 @@
+.idea/*
+allure-report/*
+allure-results/*
+images/*
+node_modules/*
+yarn.lock
