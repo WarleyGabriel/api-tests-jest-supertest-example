@@ -1,49 +1,58 @@
-## Demo API tests with Mocha and Chai
+Demo API tests with Mocha and Chai
+=================
 
-**Demo API tests** is a demonstration project that check response of server and validate the contract.<br/>
-These tests are developed in JS with [Mocha](https://mochajs.org/) and [Chai](https://www.chaijs.com/)<br/>
+**Demo API tests** is a demonstration project that check response of server and validate the contract.  
+These tests are developed in JS with [Mocha](https://mochajs.org/) and [Chai](https://www.chaijs.com/).
 
-#### Requirements
+Requirements
+---------------
 
 - node >= 10.15.x - [how to install Node](https://nodejs.org/en/download/)
 - yarn >= 1.16.x - [how to install Yarn](https://yarnpkg.com/en/docs/install#debian-stable)
 
-#### Getting Started
+Getting Started
+---------------
 
 Install the dependencies:
-```
+
+```bash
 yarn install
 ```
 
 Run api tests:
-```
-yarn run api:tests
+
+```bash
+yarn run tests:api
 ```
 
-#### Allure Report
+Allure Report
+---------------
 
 ![alt text](https://github.com/WarleyGabriel/demo-api-tests/blob/master/images/allure-report.png)
 
-If you don't have allure command line installed on your machine yet, follow the instructions [here](https://github.com/allure-framework/allure-docs/blob/master/docs/reporting/commandline.adoc).
+Run this command to generate the allure report in the directory `./allure-report`:
 
-After installing, run this command to generate the report:
-```
-yarn run report
-```
-
-You can run this command to start a server and open the report:
-```
-allure open allure-report
+```bash
+yarn report:generate
 ```
 
-#### Eslint and Prettier
+You can run this command to start a server on your machine and open the allure report on the browser:
+
+```bash
+yarn report:open
+```
+
+Eslint and Prettier
+---------------
 
 Run check lint:
-```
-yarn run check
+
+```bash
+yarn code:check
 ```
 
 Run format lint:
-```
-yarn run format
+
+```bash
+yarn code:format
 ```
