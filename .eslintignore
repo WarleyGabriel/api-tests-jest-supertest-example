@@ -1,5 +1,4 @@
 .idea/*
-allure-report/*
-allure-results/*
+reports/*
 images/*
 node_modules/*

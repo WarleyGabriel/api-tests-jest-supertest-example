@@ -8,5 +8,4 @@ node_modules/
 .DS_Store
 
 ### Logs ###
-allure-results/
-allure-report/
+reports/

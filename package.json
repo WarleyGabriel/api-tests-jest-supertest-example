@@ -14,10 +14,9 @@
     "code:format": "yarn code:lint --fix --quiet && yarn code:prettier --write",
     "code:lint": "eslint .",
     "code:prettier": "prettier --check \"**/*.js*\"",
-    "report:allure": "./node_modules/allure-commandline/bin/allure",
-    "report:generate": "yarn report:allure generate --clean ./allure-results -o ./allure-report",
-    "report:open": "yarn report:allure open ./allure-report",
-    "tests:api": "mocha test/specs/*.spec.js --require @babel/polyfill --require @babel/register --reporter mocha-multi-reporters --reporter-options configFile=mocha.reporters.json"
+    "report:generate": "npx allure generate --clean ./reports/allure-results -o ./reports/allure-report",
+    "report:open": "npx allure open ./reports/allure-report",
+    "tests:api": "mocha"
   },
   "dependencies": {
     "@babel/cli": "^7.5.0",
@@ -30,6 +29,7 @@
     "axios": "^0.18.0",
     "chai": "^4.2.0",
     "chai-json-schema": "^1.5.1",
+    "chance": "^1.0.18",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-airbnb-base": "^13.1.0",
@@ -41,6 +41,8 @@
     "mocha": "^6.1.4",
     "mocha-allure-reporter": "^1.4.0",
     "mocha-multi-reporters": "^1.1.7",
-    "prettier": "^1.18.2"
+    "mochawesome": "^4.1.0",
+    "prettier": "^1.18.2",
+    "supertest": "^4.0.2"
   }
 }

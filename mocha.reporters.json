@@ -1,6 +1,11 @@
 {
-  "reporterEnabled": "spec, mocha-allure-reporter",
+  "reporterEnabled": "mocha-allure-reporter, mochawesome",
   "mochaAllureReporterReporterOptions": {
-    "targetDir": "./allure-results"
+    "targetDir": "./reports/allure-results"
+  },
+  "reporterOptions": {
+    "overwrite": true,
+    "reportDir": "./reports/mochawesome",
+    "quiet": true
   }
 }
