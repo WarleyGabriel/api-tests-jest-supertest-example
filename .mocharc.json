@@ -1,0 +1,8 @@
+{
+  "require": "@babel/register",
+  "timeout": 60000,
+  "ui": "bdd",
+  "reporter": "mocha-multi-reporters",
+  "reporter-options": "configFile=mocha.reporters.json",
+  "recursive": true
+}

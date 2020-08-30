@@ -1,6 +1,0 @@
---require @babel/register
---reporter mocha-multi-reporters
---reporter-options configFile=mocha.reporters.json
---ui bdd
---recursive
---timeout 10000

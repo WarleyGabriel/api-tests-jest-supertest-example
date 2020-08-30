@@ -5,8 +5,8 @@ import Chance from 'chance';
 import request from 'supertest';
 import * as HttpStatus from 'http-status-codes';
 import { postmanService } from '../services/Postman.service';
-import echoPostmanResponse from '../data/responses/EchoPostman.response';
-import echoPostmanSchema from '../data/schemas/EchoPostman.schema';
+import echoPostmanResponse from '../data/responses/EchoPostman.response.json';
+import echoPostmanSchema from '../data/schemas/EchoPostman.schema.json';
 
 chai.use(jsonSchema);
 const chance = new Chance();
