@@ -1,58 +1,61 @@
-Demo API tests with Mocha and Chai
-=================
+# Demo API tests with Jest and SuperTest
 
-**Demo API tests** is a demonstration project that check response of server and validate the contract.  
-These tests are developed in JS with [Mocha](https://mochajs.org/) and [Chai](https://www.chaijs.com/).
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![Action Status](https://github.com/WarleyGabriel/demo-api-tests/workflows/CI/badge.svg)](https://github.com/WarleyGabriel/demo-api-tests/actions)
 
-Requirements
----------------
+**Demo API tests** is a demonstration project of API tests.  
+These tests are developed in TypeScript with [Jest](https://jestjs.io/docs/en/getting-started) and [SuperTest](https://github.com/visionmedia/supertest).
 
-- node >= 10.15.x - [how to install Node](https://nodejs.org/en/download/)
-- yarn >= 1.16.x - [how to install Yarn](https://yarnpkg.com/en/docs/install#debian-stable)
+## Features
 
-Getting Started
----------------
+-   TypeScript
+-   Jest
+-   SuperTest
+-   [Commit lint](https://github.com/conventional-changelog/commitlint) and [Commitizen](https://github.com/commitizen/cz-cli#making-your-repo-commitizen-friendly)
+-   ESlint
+-   Prettier
+-   Husky
+-   Github Actions example
+-   Jest HTML Reporter on [Github Pages](http://warleygabriel.github.io/demo-api-tests)
+
+## Requirements
+
+-   node >= 12.x - [how to install Node](https://nodejs.org/en/download/)
+-   npm >= 6.14.x - [how to install NPM](https://www.npmjs.com/get-npm)
+
+## Getting Started
 
 Install the dependencies:
 
 ```bash
-yarn install
+npm install
 ```
 
 Run api tests:
 
 ```bash
-yarn run tests:api
+npm run test
 ```
 
-Allure Report
----------------
+## Watch mode
 
-![alt text](https://github.com/WarleyGabriel/demo-api-tests/blob/master/images/allure-report.png)
-
-Run this command to generate the allure report in the directory `./allure-report`:
+We also have watch mode for Jest and TypeScript:
 
 ```bash
-yarn report:generate
+npm run build:watch
+npm run test:watch
 ```
 
-You can run this command to start a server on your machine and open the allure report on the browser:
+## Prettier and Eslint
+
+Run to format the code:
 
 ```bash
-yarn report:open
+npm run code:format
 ```
 
-Eslint and Prettier
----------------
+## Commit
 
-Run check lint:
+We use the best practices for message's commit, using [Commit lint](https://github.com/conventional-changelog/commitlint) and [Commitizen](https://github.com/commitizen/cz-cli#making-your-repo-commitizen-friendly) we can generate changelogs automatically.
 
-```bash
-yarn code:check
-```
-
-Run format lint:
-
-```bash
-yarn code:format
-```
+Run `npm run commit` and commitizen will help you.

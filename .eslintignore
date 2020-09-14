@@ -1,4 +1,2 @@
-.idea/*
-reports/*
-images/*
 node_modules/*
+dist/*
