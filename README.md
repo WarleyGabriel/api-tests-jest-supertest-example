@@ -4,7 +4,8 @@
 [![Action Status](https://github.com/WarleyGabriel/demo-api-tests/workflows/CI/badge.svg)](https://github.com/WarleyGabriel/demo-api-tests/actions)
 
 **Demo API tests** is a demonstration project of API tests.  
-These tests are developed in TypeScript with [Jest](https://jestjs.io/docs/en/getting-started) and [SuperTest](https://github.com/visionmedia/supertest).
+These tests are developed in TypeScript with [Jest](https://jestjs.io/docs/en/getting-started) and [SuperTest](https://github.com/visionmedia/supertest).  
+We are using [FakeRestAPI.Web](https://fakerestapi.azurewebsites.net/swagger/ui/index#!/Books/) as a system.
 
 ## Features
 
