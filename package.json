@@ -7,7 +7,7 @@
   },
   "author": "Warley Gabriel da Paixão",
   "scripts": {
-    "build": "rm -rf ./dist && npx tsc && cp -R ./src/test/data ./dist/",
+    "build": "rm -rf ./dist && npx tsc && cp -R ./src/test/response ./dist/",
     "build:watch": "npx tsc -w",
     "code:format": "eslint . --ext .ts && prettier --check \"src/**/*.ts*\" --write",
     "commit": "cz",

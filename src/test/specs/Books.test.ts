@@ -22,7 +22,7 @@ describe('Managing books', function () {
             .expect('Content-Type', /json/)
             .expect(StatusCodes.OK);
 
-        const responseBase = require('../data/response/specific_book.json');
+        const responseBase = require('../response/book.json');
 
         expect(response.body).toMatchObject(
             expect.objectContaining(responseBase),
