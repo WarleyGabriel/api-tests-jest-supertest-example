@@ -45,20 +45,20 @@ npm run test
 ```
 
 ```text
- PASS  dist/specs/Books.test.js (5.796 s)
+ PASS  dist/specs/Books.test.js (7.384 s)
   Managing books
-    ✓ /GET - All books (1490 ms)
-    ✓ /GET - An specific book (856 ms)
-    ✓ /POST - A new book (885 ms)
-    ✓ /PUT - Update a book (928 ms)
-    ✓ /DELETE - Remove a book (1249 ms)
+    ✓ /GET - All books (1096 ms)
+    ✓ /GET - An specific book (1101 ms)
+    ✓ /POST - A new book (1217 ms)
+    ✓ /PUT - Update a book (1229 ms)
+    ✓ /DELETE - Remove a book (1228 ms)
+    ✓ /CONTRACT - Check contract of getting books (1076 ms)
 
 Test Suites: 1 passed, 1 total
-Tests:       5 passed, 5 total
+Tests:       6 passed, 6 total
 Snapshots:   0 total
-Time:        6.547 s, estimated 7 s
+Time:        8.16 s, estimated 13 s
 Ran all test suites matching /.\/dist\/specs\/Books.test.js/i.
-jest-html-reporter >> Report generated (output/index.html)
 ```
 
 ## Watch mode

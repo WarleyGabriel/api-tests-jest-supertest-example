@@ -73,4 +73,17 @@ describe('Managing books', function () {
 
         expect(response.body).toMatchObject({});
     });
+
+    it('/CONTRACT - Check contract of getting books', async () => {
+        const response = await client()
+            .get('/books/1')
+            .set('Accept', 'application/json')
+            .expect(StatusCodes.OK);
+
+        const responseBase = require('../response/book.json');
+
+        Object.keys(responseBase).forEach((k) =>
+            expect(response.body).toHaveProperty(k),
+        );
+    });
 });
