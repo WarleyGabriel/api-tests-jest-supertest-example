@@ -1,12 +1,11 @@
-# Demo API tests with Jest and SuperTest
+# API tests with Jest and SuperTest
 
 [![jest](https://facebook.github.io/jest/img/jest-badge.svg)](https://github.com/facebook/jest)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![Action Status](https://github.com/WarleyGabriel/demo-api-tests/workflows/CI/badge.svg)](https://github.com/WarleyGabriel/demo-api-tests/actions)
+[![Action Status](https://github.com/WarleyGabriel/api-tests-jest-supertest-example/workflows/CI/badge.svg)](https://github.com/WarleyGabriel/api-tests-jest-supertest-example/actions)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Demo API tests** is a demonstration project of API tests.  
-These tests are developed in TypeScript with [Jest](https://jestjs.io/docs/en/getting-started) and [SuperTest](https://github.com/visionmedia/supertest).  
+This project is an example of API tests using TypeScript, [Jest](https://jestjs.io/docs/en/getting-started) and [SuperTest](https://github.com/visionmedia/supertest).  
 We are using [FakeRestAPI.Web](https://fakerestapi.azurewebsites.net/swagger/ui/index#!/Books/) as a system.
 
 ## Features
@@ -19,7 +18,7 @@ We are using [FakeRestAPI.Web](https://fakerestapi.azurewebsites.net/swagger/ui/
 -   Prettier
 -   Husky
 -   Github Actions
--   [Jest HTML Reporter](https://github.com/dkelosky/jest-stare) on [Github Pages](http://warleygabriel.github.io/demo-api-tests)
+-   [Jest HTML Reporter](https://github.com/dkelosky/jest-stare) on [Github Pages](http://warleygabriel.github.io/api-tests-jest-supertest-example)
 
 ## Requirements
 

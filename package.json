@@ -1,9 +1,9 @@
 {
-  "name": "demo-api-tests",
+  "name": "api-tests-jest-supertest-example",
   "version": "2.0.0",
   "repository": {
     "type": "git",
-    "url": "git@github.com:WarleyGabriel/demo-api-tests.git"
+    "url": "git@github.com:WarleyGabriel/api-tests-jest-supertest-example.git"
   },
   "author": "Warley Gabriel da Paixão",
   "scripts": {
