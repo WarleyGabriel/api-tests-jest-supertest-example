@@ -1,7 +1,9 @@
 # Demo API tests with Jest and SuperTest
 
+[![jest](https://facebook.github.io/jest/img/jest-badge.svg)](https://github.com/facebook/jest)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Action Status](https://github.com/WarleyGabriel/demo-api-tests/workflows/CI/badge.svg)](https://github.com/WarleyGabriel/demo-api-tests/actions)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Demo API tests** is a demonstration project of API tests.  
 These tests are developed in TypeScript with [Jest](https://jestjs.io/docs/en/getting-started) and [SuperTest](https://github.com/visionmedia/supertest).  
