@@ -1,0 +1,140 @@
+{
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 1,
+  "numPassedTests": 6,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 6,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1600255640740,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 6,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1600255645153,
+        "runtime": 3710,
+        "slow": false,
+        "start": 1600255641443
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/home/runner/work/demo-api-tests/demo-api-tests/dist/specs/Books.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Managing books"
+          ],
+          "duration": 610,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Managing books /GET - All books",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "/GET - All books"
+        },
+        {
+          "ancestorTitles": [
+            "Managing books"
+          ],
+          "duration": 480,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Managing books /GET - An specific book",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "/GET - An specific book"
+        },
+        {
+          "ancestorTitles": [
+            "Managing books"
+          ],
+          "duration": 464,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Managing books /POST - A new book",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "/POST - A new book"
+        },
+        {
+          "ancestorTitles": [
+            "Managing books"
+          ],
+          "duration": 445,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Managing books /PUT - Update a book",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "/PUT - Update a book"
+        },
+        {
+          "ancestorTitles": [
+            "Managing books"
+          ],
+          "duration": 451,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Managing books /DELETE - Remove a book",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "/DELETE - Remove a book"
+        },
+        {
+          "ancestorTitles": [
+            "Managing books"
+          ],
+          "duration": 461,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Managing books /CONTRACT - Check contract of getting books",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "/CONTRACT - Check contract of getting books"
+        }
+      ],
+      "failureMessage": null
+    }
+  ],
+  "wasInterrupted": false
+}
