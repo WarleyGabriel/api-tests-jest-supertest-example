@@ -19,7 +19,7 @@ We are using [FakeRestAPI.Web](https://fakerestapi.azurewebsites.net/swagger/ui/
 -   Prettier
 -   Husky
 -   Github Actions
--   Jest HTML Reporter on [Github Pages](http://warleygabriel.github.io/demo-api-tests)
+-   [Jest HTML Reporter](https://github.com/dkelosky/jest-stare) on [Github Pages](http://warleygabriel.github.io/demo-api-tests)
 
 ## Requirements
 
