@@ -31,11 +31,11 @@ describe('Managing books', function () {
 
     it('/POST - A new book', async () => {
         const params = {
-            Title: chance.word({ length: 15 }),
-            Description: chance.sentence(),
-            PageCount: 499,
-            Excerpt: chance.paragraph(),
-            PublishDate: new Date().toISOString,
+            title: chance.word({ length: 15 }),
+            description: chance.sentence(),
+            pageCount: 499,
+            excerpt: chance.paragraph(),
+            publishDate: new Date().toISOString,
         };
 
         const response = await client()
@@ -43,7 +43,7 @@ describe('Managing books', function () {
             .send(params)
             .expect(StatusCodes.OK);
 
-        delete params['PublishDate'];
+        delete params['publishDate'];
 
         expect(response.body).toMatchObject(expect.objectContaining(params));
     });
@@ -51,17 +51,19 @@ describe('Managing books', function () {
     it('/PUT - Update a book', async () => {
         const params = {
             ID: 10,
-            Title: chance.word({ length: 25 }),
-            Description: chance.sentence(),
-            PageCount: 1000,
-            Excerpt: chance.paragraph(),
-            PublishDate: '2020-09-14T18:29:12.39Z',
+            title: chance.word({ length: 25 }),
+            description: chance.sentence(),
+            pageCount: 1000,
+            excerpt: chance.paragraph(),
+            publishDate: '2020-09-14T18:29:12.39Z',
         };
 
         const response = await client()
             .put(`/books/${params.ID}`)
             .send(params)
             .expect(StatusCodes.OK);
+
+        delete params['ID'];
 
         expect(response.body).toMatchObject(params);
     });
