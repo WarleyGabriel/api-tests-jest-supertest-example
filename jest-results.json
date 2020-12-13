@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1605639835522,
+  "startTime": 1607838389959,
   "success": false,
   "testResults": [
     {
@@ -37,10 +37,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1605639839958,
-        "runtime": 3774,
+        "end": 1607838394478,
+        "runtime": 3987,
         "slow": false,
-        "start": 1605639836184
+        "start": 1607838390491
       },
       "skipped": false,
       "snapshot": {
@@ -58,7 +58,7 @@
           "ancestorTitles": [
             "Managing books"
           ],
-          "duration": 1129,
+          "duration": 1180,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Managing books /GET - All books",
@@ -71,7 +71,7 @@
           "ancestorTitles": [
             "Managing books"
           ],
-          "duration": 392,
+          "duration": 410,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Managing books /GET - An specific book",
@@ -84,7 +84,7 @@
           "ancestorTitles": [
             "Managing books"
           ],
-          "duration": 351,
+          "duration": 370,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Managing books /POST - A new book",
@@ -97,7 +97,7 @@
           "ancestorTitles": [
             "Managing books"
           ],
-          "duration": 349,
+          "duration": 649,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Managing books /PUT - Update a book",
@@ -110,7 +110,7 @@
           "ancestorTitles": [
             "Managing books"
           ],
-          "duration": 339,
+          "duration": 375,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Managing books /DELETE - Remove a book",
@@ -123,7 +123,7 @@
           "ancestorTitles": [
             "Managing books"
           ],
-          "duration": 391,
+          "duration": 425,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Managing books /CONTRACT - Check contract of getting books",
